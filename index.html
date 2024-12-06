@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estación de Servicio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./Images/bomba-de-gasolina.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Estación de Servicio - Combustibles Rápidos</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <h2>¡Combustible de calidad, servicio rápido!</h2>
+    <button onclick="scrollToSection('servicios')">Conoce nuestros servicios</button>
+  </section>
+  
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="card">
+      <img src="./Images/january-BLOG-19.jpg" alt="Gasolina">
+      <h3>Gasolina y Diésel</h3>
+      <p>Surtimos combustible de la mejor calidad para tu vehículo.</p>
+    </div>
+    <div class="card">
+      <img src="./Images/cambio-de-aceite-coche.jpg" alt="Cambio de aceite">
+      <h3>Cambio de Aceite</h3>
+      <p>Servicios rápidos de cambio de aceite para cuidar tu motor.</p>
+    </div>
+    <div class="card">
+      <img src="./Images/LavaderoCarros.jpg" alt="Lavado de autos">
+      <h3>Lavado de Autos</h3>
+      <p>Mantenemos tu vehículo limpio con nuestros servicios premium.</p>
+    </div>
+  </section>
+
+  <section id="promociones">
+    <h2>Promociones</h2>
+    <p>¡Carga más, paga menos! Consulta nuestras promociones especiales del mes.</p>
+  </section>
+
+  <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>Nos encontramos en la Av. Principal #123, Ciudad Combustible.</p>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345085245!2d144.95605431531583!3d-37.81720997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b9eac914b4a1!2sFederation+Square!5e0!3m2!1sen!2sau!4v1613977972781!5m2!1sen!2sau" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy"></iframe>
+  </section>
+
+  <footer id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: info@combustiblesrapidos.com</p>
+    <p>Teléfono: +123 456 789</p>
+    <p>Síguenos en redes sociales:</p>
+    <div class="social-icons">
+      <a href="#"><img src="./Images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="./Images/logotipos.png" alt="Twitter"></a>
+      <a href="#"><img src="./Images/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
